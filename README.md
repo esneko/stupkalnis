@@ -1,2 +1,0 @@
-# stupkalnis
-www.stupkalnis.lt

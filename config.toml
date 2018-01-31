@@ -1,0 +1,65 @@
+# https://dev.to/greyhoundforty/deploying-hugo-on-bluemix
+baseURL = "http://www.stupkalnis.lt/"
+languageCode = "en-us"
+title = "Stupkalnis"
+disableHugoGeneratorInject = true
+disableKinds = ["404"]
+
+[params]
+  # Meta
+  author = "Diamond Way Buddhism Foundation"
+  description = "Stupkalnis Retreat Center"
+  email = "stupkalnis@budizmas.lt"
+
+  # Navigation
+  [params.navigation]
+    brand = "Stupa Project"
+    about = "About"
+    work = "Donation"
+    contact = "Contacts"
+
+  # Hero section
+  [params.hero]
+    title = "We just have to remind ourselves that the source of any hapiness is mind itself."
+    subtitle = '&mdash; Lama Ole'
+
+  # About section
+  [params.about]
+    [[params.about.item]]
+      name = "Lama Ole Nydahl"
+      description = "Lama Ole Nydahl and his late wife Hannah were the first Western students of H.H. the 16th Gyalwa Karmapa. For over 40 years, Lama Ole has taught Diamond Way Buddhism to tens of thousands of students and founded over 650 Buddhist centers worldwide. Lama Ole specializes in the practices of Mahamudra (the “Great Seal”) and Phowa—a rare, centuries-old method of conscious dying. He teaches his students to combine lay Buddhist practice with independent thinking and the maturity that comes through life experience. A recent winner of the UNESCO prize for Dialogue, Coexistence and Peace, Lama Ole also stresses the importance of democratic principles in society, especially freedom of speech and women’s rights."
+      img = "teachers/Lama_Ole.png"
+      alt = "Lama Ole Nydahl"
+
+    [[params.about.item]]
+      name = "Nedo Kuchung Rinpoche"
+      description = "Nedo Kuchung Rinpoche was born in 1962 in India and recognized by H.H. the 16th Karmapa as the sixth reincarnation in the Nedo Kulha lineage. Until the age of 18, Rinpoche was educated under the guidance of H.H. the 16th Karmapa in Rumtek monastery. He then studied for three years in Ladakh before returning to Rumtek for a three-year retreat, where he practiced the tantras of Marpa, the Six Yogas of Naropa, and various Mahamudra transmissions. When he was 25, Rinpoche was appointed Vajramaster of Rumtek monastery, and he remains today the main Vajramaster of H.H. the 17th Karmapa Thaye Dorje. Nedo Rinpoche is currently responsible for Shamar Rinpoche’s monks as well as all activities of the Karma Kagyu lineage in Sikkim."
+      img = "teachers/Nedo_Rimpoche.png"
+      alt = "Nedo Kuchung Rinpoche"
+
+  # Work section
+  [params.work]
+    title = "Donate"
+    description = "A donation to the International Tibet Network will help to build the global movement that supports the Tibetan people and promote worldwide campaigns.<br/><br/>As the number of Tibetans in Tibet who have taken the desperate act of committing self-immolation continues to grow, the Network’s role of bringing the movement together in a global response to this crisis has become ever more vital.<br/><br/>We need your support to build the global community of Tibet Groups into an increasingly united and influential movement, through coordinated advocacy, training and capacity-building."
+
+  # Contact section
+  [params.contact]
+    title = "Get in touch"
+
+    details = [
+        ["icon-home", "Stupkalnis<br>Stupkalnio km.<br>Kražių pšt.<br>86283 Kelmės raj."],
+        ["icon-phone", "+370 698 80699"],
+        ["icon-envelope", "stupkalnis(at)budizmas.lt"],
+        ["icon-globe", '<a href="http://www.stupkalnis.lt/" target="_blank">www.stupkalnis.lt</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send"
+    map = true
+
+  # Footer section
+  [params.footer]
+    copyright = '&copy; 2018 Diamond Way Buddhism Foundation</a>'
