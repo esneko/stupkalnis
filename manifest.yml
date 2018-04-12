@@ -1,8 +1,0 @@
-applications:
-- path: public/
-  memory: 512M
-  instances: 1
-  name: stupkalnis
-  host: stupkalnis
-  disk_quota: 512M
-  buildpack: https://github.com/cloudfoundry-incubator/staticfile-buildpack.git
